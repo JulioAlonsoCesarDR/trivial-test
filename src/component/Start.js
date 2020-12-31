@@ -15,7 +15,7 @@ const Start = () => {
             redirect: 'follow'
           };
 
-          fetch("http://jservice.io/api/random", requestOptions)
+          fetch("https://jservice.io/api/random", requestOptions)
           .then(response => response.json())
           .then(result => {
             setTriviaFn(result)
