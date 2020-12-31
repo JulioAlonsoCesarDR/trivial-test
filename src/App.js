@@ -1,8 +1,14 @@
+import { Fragment } from "react";
+import RouterApp from "./Router";
+import TrivialState from './context'
+
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <Fragment>
+      <TrivialState>
+        < RouterApp/>
+      </TrivialState>
+    </Fragment>
   );
 }
 
